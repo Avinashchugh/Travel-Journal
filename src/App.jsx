@@ -6,12 +6,7 @@ const App = () => {
    const obj = Data.map((item)=>{
       return <Hero
               key={item.id}
-              imageUrl={item.imageUrl}
-              location={item.location}
-              title={item.title}
-              startDate={item.startDate}
-              endDate={item.endDate}
-              description={item.description}
+              item={item}
                                               />
    })
   return (

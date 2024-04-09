@@ -11,7 +11,7 @@ const Hero = (props) => {
           <Col>
             <img
               style={{ borderRadius: "10px" }}
-              src={props.imageUrl}
+              src={props.item.imageUrl}
               width={"200px"}
               height={"250px"}
             />
@@ -19,13 +19,13 @@ const Hero = (props) => {
           <Col style={{ paddingTop: "20px" }}>
             <span style={{ fontSize: "20px" }}>
               <FaLocationDot />
-              {props.location}
+              {props.item.location}
             </span>
-            <h1>{props.title}</h1>
+            <h1>{props.item.title}</h1>
             <h4>
-              {props.startDate}-{props.endDate}
+              {props.item.startDate}-{props.item.endDate}
             </h4>
-            <p>{props.description}</p>
+            <p>{props.item.description}</p>
           </Col>
         </Row>
       </Container>
