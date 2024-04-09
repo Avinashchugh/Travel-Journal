@@ -13,7 +13,7 @@ const Hero = (props) => {
               style={{ borderRadius: "10px" }}
               src={props.imageUrl}
               width={"200px"}
-              height={"250px"}
+              height={"290px"}
             />
           </Col>
           <Col style={{ paddingTop: "20px" }}>
