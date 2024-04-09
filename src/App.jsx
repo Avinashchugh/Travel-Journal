@@ -4,10 +4,7 @@ import Hero from './Components/Hero'
 import Data from './Components/Data'
 const App = () => {
    const obj = Data.map((item)=>{
-      return <Hero
-              key={item.id}
-              item={item}
-                                              />
+      return <Hero key={item.id} {...item}/>
    })
   return (
     <div>
