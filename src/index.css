@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+}
+body{
+  margin: 0;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  
+}
+nav>h3{
+  padding: 5px;
+}
